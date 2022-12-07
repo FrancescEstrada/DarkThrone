@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/main.css">
+    <script src="https://kit.fontawesome.com/30520eeb86.js" crossorigin="anonymous"></script>
+    <title>Extras</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Metal&display=swap" rel="stylesheet">
+</head>
+<nav class="navbar navbar-expand data-bs-toggle">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img src="/src/assets/images/darkthrone.png" alt="logo band" width="85px" height="100px"></a>
+      <button class="navbar-toggler text-black" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link text-black" href="bandmembers.html" title="Página de descripción de los miembros del grupo">Band Members</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-black" href="blog.html" title="Página de blog">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-black" href="extras.html" title="Página de extras">Extras</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<body id="bodyextras">
+  <div class="extras__titulos">
+    <h2>Multimedia</h2>
+  </div>
+  <div class="extras__videos">
+  <div class="extras__videos__primero">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/OxgVmpAk538" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div> 
+  <div class="extras__videos__tercero">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/GpSvqitt1x0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+  </div>
+  <div class="extras__titulos">
+  <h2>Contact Us</h2>
+</div>
+  <div class="extras__form">
+  <form name="contact" method="POST" data-netlify="true">
+    <p>
+      <label>Your Name: <input type="text" name="name" /></label>
+    </p>
+    <p>
+      <label>Your Email: <input type="email" name="email" /></label>
+    </p>
+    <p>
+      <label>Your telephone: <input type="telephone" name="telephone" /></label>
+    </p>
+    <p>
+      <label>Who are you?: <select name="role[]" multiple>
+        <option value="leader">Fan</option>
+        <option value="follower">Booker</option>
+        <option value="follower">Musician</option>
+        <option value="follower">Journalist</option>
+        <option value="follower">Other</option>
+      </select></label>
+    </p>
+    <p>
+      <label>Message: <textarea name="message"></textarea></label>
+    </p>
+    <p>
+      <button id="btn-form" type="submit">SEND</button>
+    </p>
+  </form>
+</div>
+<div class="footer__extras">
+<include src="./views/footer2.html"></include>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+<script type="module" src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
+</div>
+</body>
+</html>

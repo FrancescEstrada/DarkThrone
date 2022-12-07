@@ -1,0 +1,22 @@
+@use "sass:color";
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+  "Segoe UI Symbol";
+$font-family-serif: "Georgia", "Times New Roman", serif;
+
+$font-size-big:40px;
+$font-size-medium:20px;
+$font-size-small:10px;
+
+
+
+$mqMinWidth: 420px;
+$width-desktop:1000px;
+$width-tablet:700px;
+
+$red: #d93a00;
+$primary:$red;
+$secundary: #898a8c
+
